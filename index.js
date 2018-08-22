@@ -140,7 +140,7 @@ function moveDodgerLeft() {
        DODGER.style.left = `${posNum - 4}px`;
      }
    });
-   console.log(posNum);
+   
 
 }
 
@@ -157,7 +157,7 @@ function moveDodgerRight() {
        DODGER.style.left = `${posNum + 4}px`;
      }
    });
-   console.log(posNum);
+   
 }
 
 /**
