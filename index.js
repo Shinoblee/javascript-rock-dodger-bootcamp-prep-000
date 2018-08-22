@@ -119,15 +119,7 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-  let pressedButton = document.addEventListener('keydown', function(e){
-    if (e === 37){
-      pressedButton = LEFT_ARROW;
-      console.log(pressedButton)
-    }else if(e === 39){
-      pressedButton = RIGHT_ARROW;
-      console.log(pressedButton)
-    }
-  });
+
    
 }
 
