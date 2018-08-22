@@ -74,7 +74,7 @@ function createRock(x) {
    */
   function moveRock() {
     // implement me!
-    rock.style.top = `${top = top + 2}px`
+    rock.style.top = `${top = top + 2}px`;
     // (use the comments below to guide you!)
     /**
      * If a rock collides with the DODGER,
