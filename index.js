@@ -107,6 +107,7 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
+  console.log('this will trigger endGame')
 }
 
 function moveDodger(e) {
