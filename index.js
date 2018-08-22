@@ -119,7 +119,12 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-  
+  let buttonPress = e.which;
+  if(buttonPress === LEFT_ARROW){
+    moveDodgerLeft();
+  }else if(buttonPress === RIGHT_ARROW){
+    moveDodgerRight();
+  }
    
 }
 
