@@ -120,7 +120,6 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
   document.addEventListener('keydown', function(e){
-    console.log(e.which);
     if (e === 37){
       moveDodgerLeft();
     }else if(e === 39){
