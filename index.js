@@ -154,7 +154,7 @@ function moveDodgerRight() {
    let position = DODGER.style.left.replace('px','');
    let posNum = parseInt(position, 10);
    window.requestAnimationFrame(function(){
-     if (posNum < 356){
+     if (posNum < 360){
        DODGER.style.left = `${posNum + 4}px`;
      }
    });
