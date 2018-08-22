@@ -136,7 +136,7 @@ function moveDodgerLeft() {
    */
    let position = DODGER.style.left.replace('px','')
    let posNum = parseInt(position)
-   console.log('Left');
+   console.log(posNum);
    
 }
 
