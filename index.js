@@ -119,11 +119,7 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   document.addEventListener('keydown',e){
-     console.log(e.which);
-   }
-     
-   
+
    
 }
 
