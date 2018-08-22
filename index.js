@@ -121,6 +121,9 @@ function moveDodger(e) {
    */
   document.addEventListener('keydown', function(e){
     console.log(e.which);
+    if (e === 37){
+      moveDodgerLeft();
+    }
   });
    
 }
@@ -131,6 +134,7 @@ function moveDodgerLeft() {
    * This function should move DODGER to the left
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
+   console.log('Left');
 }
 
 function moveDodgerRight() {
