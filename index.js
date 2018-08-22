@@ -1,21 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @Shinoblee Sign out
-0
-0 1,325 Shinoblee/javascript-rock-dodger-bootcamp-prep-000
-forked from learn-co-students/javascript-rock-dodger-bootcamp-prep-000
- Code  Pull requests 0  Projects 0  Insights  Settings
-javascript-rock-dodger-bootcamp-prep-000/index.js
-dfbf1e5  on Jul 27, 2016
-@pletcher pletcher Update solution
-     
-125 lines (93 sloc)  2.65 KB
 const DODGER = document.getElementById('dodger')
 const GAME = document.getElementById('game')
 const GAME_HEIGHT = 400
