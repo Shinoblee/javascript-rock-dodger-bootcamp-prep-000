@@ -123,6 +123,8 @@ function moveDodger(e) {
     console.log(e.which);
     if (e === 37){
       moveDodgerLeft();
+    }else if(e === 39){
+      moveDodgerRight();
     }
   });
    
